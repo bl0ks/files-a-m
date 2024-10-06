@@ -1,0 +1,98 @@
+.destination {
+    font-size: 11px;
+    line-height: 1.465;
+    background-color: #fff;
+    color: #0f1111;
+    position: relative;
+    padding: 6px 10px 6px 10px;
+    bottom: .15em;
+    border-radius: 3px;
+    text-align: center;
+    visibility: hidden;
+    transform: translateX(-50%);
+    right: 0 !important
+}
+
+@media (min-width:1024px) {
+    .destination {
+        font-size: 13px;
+        line-height: 19px
+    }
+}
+
+.destination.destination-tail {
+    position: absolute;
+    left: -.3em;
+    bottom: -.5em;
+    width: 1.2em;
+    height: 1.2em;
+    z-index: 100
+}
+
+.destination p {
+    margin: 0
+}
+
+.bubble-content {
+    min-width: 6em;
+    margin: .2em 0;
+    padding: 0 .2em;
+    user-select: text;
+    -moz-user-select: text;
+    -khtml-user-select: text;
+    -webkit-user-select: text;
+    -o-user-select: text;
+    -ms-user-select: text
+}
+
+.bubble-content p {
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    margin: 0
+}
+
+@media (min-width:1024px) {
+    .bubble-content p {
+        max-width: 250px
+    }
+}
+
+.agent {
+    font-size: 11px;
+    line-height: 1.465;
+    background-color: #fff;
+    color: #0f1111;
+    position: absolute;
+    padding: 6px 10px 6px 10px;
+    bottom: 4.5em;
+    border-radius: 12px;
+    text-align: center;
+    transform: translateX(-50%);
+    right: auto !important
+}
+
+@media (min-width:1024px) {
+    .agent {
+        font-size: 13px;
+        line-height: 19px;
+        bottom: 4em
+    }
+}
+
+.agent-tail {
+    bottom: 3.8em;
+    position: absolute;
+    left: -.3em;
+    width: 1.2em;
+    height: 1.2em;
+    z-index: 100
+}
+
+@media (min-width:1024px) {
+    .agent-tail {
+        bottom: 4.2em
+    }
+}
